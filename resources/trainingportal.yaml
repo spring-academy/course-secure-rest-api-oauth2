@@ -1,0 +1,57 @@
+apiVersion: training.educates.dev/v1beta1
+kind: TrainingPortal
+metadata:
+  name: spr-oauth2
+spec:
+  portal:
+    registration:
+      type: anonymous
+    updates:
+      workshop: true
+    sessions:
+      maximum: 15
+  workshops:
+    - name: spr-oauth2-unsecured-api
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-spring-defaults
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-bearer-jwt
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-accessing-auth
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-auth-anywhere
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-validating-audience
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-processing-failures
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-request-authorization
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-method-authorization
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-data-authorization
+      expires: 60m
+      orphaned: 5m
+      reserved: 0
+    - name: spr-oauth2-auth-server
+      expires: 60m
+      orphaned: 5m
+      reserved: 0

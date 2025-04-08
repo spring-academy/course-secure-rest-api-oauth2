@@ -1,0 +1,1 @@
+In this lesson, you learned the basics of authentication and two authentication schemes. Spring Security uses content negotiation to figure out which authentication scheme to use – for REST APIs, that's HTTP Basic – and then processes your credentials into a principal. Because HTTP Basic is stateless, this process repeats on each request.

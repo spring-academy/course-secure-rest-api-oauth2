@@ -1,0 +1,11 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authorization-request-vs-method",
+  "slug": "spring-academy-secure-rest-api-oauth2-authorization-request-vs-method",
+  "title": "Authorization Models Overview - Request vs. Method",
+  "status": "live",
+  "type": "article",
+  "duration": 600,
+  "settings": {
+    "manualCompletion": true
+  }
+}

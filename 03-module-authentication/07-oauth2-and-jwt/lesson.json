@@ -1,0 +1,11 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authentication-oauth2-and-jwt",
+  "slug": "oauth2-and-jwt",
+  "title": "OAuth 2.0 and JWT",
+  "status": "live",
+  "type": "article",
+  "duration": 600,
+  "settings": {
+    "manualCompletion": true
+  }
+}

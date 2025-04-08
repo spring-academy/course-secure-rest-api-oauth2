@@ -1,0 +1,1 @@
+Learn how authorization is represented in OAuth 2.0 and how that maps to Spring Security.

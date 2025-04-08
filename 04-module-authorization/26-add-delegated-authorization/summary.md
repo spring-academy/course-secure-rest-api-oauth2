@@ -1,0 +1,1 @@
+In this lesson, you learned about configuring the resource server to point at an authorization server using the Spring Boot `issuer-uri` property. You also learned some of the drawbacks to not using an authorization server to manage some of the state inherent to security.

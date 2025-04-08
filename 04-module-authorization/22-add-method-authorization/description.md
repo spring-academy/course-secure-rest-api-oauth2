@@ -1,0 +1,1 @@
+Learn how and where method authorization wins out over request authorization.

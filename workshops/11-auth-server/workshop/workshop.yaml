@@ -1,0 +1,9 @@
+name: Add Method Authorization
+modules:
+  activate:
+    - 01-overview
+    - 02-review
+    - 03-configure
+    - 04-run-app
+    - 05-use-auth-server
+    - 99-summary

@@ -1,0 +1,1 @@
+In this lab, you'll learn the two different ways to access the principal in a Spring Boot application using; namely `Authentication` and `@CurrentSecurityContext`. You'll also get an idea of when you'd want to use each one.

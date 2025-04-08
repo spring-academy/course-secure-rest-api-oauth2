@@ -1,0 +1,8 @@
+name: Add Request Authorization
+modules:
+  activate:
+    - 01-overview
+    - 02-read
+    - 03-write
+    - 04-verify
+    - 99-summary

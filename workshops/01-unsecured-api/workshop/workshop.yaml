@@ -1,0 +1,8 @@
+name: The Unsecured API
+modules:
+  activate:
+    - 01-overview
+    - 02-unsecured-endpoints
+    - 03-consequences
+    - 04-404s
+    - 09-summary

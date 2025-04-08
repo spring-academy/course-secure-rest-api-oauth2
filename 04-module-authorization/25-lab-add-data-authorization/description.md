@@ -1,0 +1,1 @@
+In this lab you'll SpEL out a query for data authorization!

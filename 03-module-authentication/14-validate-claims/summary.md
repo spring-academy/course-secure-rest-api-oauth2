@@ -1,0 +1,1 @@
+In this lesson, you learned how to configure JWT validation steps both via Boot properties and programmatically. Let's head over to the lab where you can practice with the Boot properties and programmatic testing of Spring Security invariants.

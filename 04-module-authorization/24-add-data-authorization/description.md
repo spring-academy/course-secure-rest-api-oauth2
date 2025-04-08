@@ -1,0 +1,1 @@
+Learn where and when data authorization works best over request and method authorization.

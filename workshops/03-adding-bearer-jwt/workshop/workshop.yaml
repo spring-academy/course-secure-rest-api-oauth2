@@ -1,0 +1,9 @@
+name: The Unsecured API
+modules:
+  activate:
+    - 01-overview
+    - 02-config
+    - 03-verify
+    - 04-authenticate
+    - 05-auth-instance
+    - 09-summary

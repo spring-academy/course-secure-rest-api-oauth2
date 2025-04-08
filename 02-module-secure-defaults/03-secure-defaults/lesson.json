@@ -1,0 +1,11 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-secure-defaults-defaults",
+  "slug": "security-defaults",
+  "title": "Secure Defaults",
+  "status": "live",
+  "type": "article",
+  "duration": 600,
+  "settings": {
+    "manualCompletion": true
+  }
+}

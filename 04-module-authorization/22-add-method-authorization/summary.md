@@ -1,0 +1,1 @@
+In this lesson, you learned about how to activate method security and two of its main use cases: securing non-HTTP layers of your application and performing fine-grained authorization tasks. Now let's head over to the lab where you can see these principles in action!

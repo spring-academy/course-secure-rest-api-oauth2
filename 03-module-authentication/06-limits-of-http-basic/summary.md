@@ -1,0 +1,1 @@
+In this lesson, we briefly described HTTP Basic authentication and the limitations that make it unsuitable for almost all user-facing REST APIs. Instead, we want something that uses short-term credentials that authorize specific actions and doesn't expose your password!

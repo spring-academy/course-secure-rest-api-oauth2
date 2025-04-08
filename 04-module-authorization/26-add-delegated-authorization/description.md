@@ -1,0 +1,1 @@
+Learn where and when to delegate authorization to an authorization server.

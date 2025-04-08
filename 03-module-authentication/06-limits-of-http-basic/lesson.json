@@ -1,0 +1,11 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authentication-limits-of-basic",
+  "slug": "limits-of-http-basic",
+  "title": "Limits of HTTP Basic",
+  "status": "live",
+  "type": "article",
+  "duration": 300,
+  "settings": {
+    "manualCompletion": true
+  }
+}

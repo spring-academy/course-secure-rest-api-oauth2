@@ -1,0 +1,28 @@
+modules:
+  01-overview:
+    name: "Overview"
+    exit_sign: Continue
+  02-add-security:
+    name: "Add Spring Security"
+    exit_sign: Continue
+  03-requires-authentication:
+    name: "Requires Authentication for All Requests"
+    exit_sign: Continue
+  04-requires-csrf:
+    name: "Requires CSRF for All Side-effect Requests"
+    exit_sign: Continue
+  05-requires-authentication-http:
+    name: "Requires Authentication for All Requests"
+    exit_sign: Continue
+  06-use-http-basic:
+    name: "Uses HTTP Basic and a Default User"
+    exit_sign: Continue
+  07-requires-csrf-http:
+    name: "Requires CSRF for All Side-effect Requests"
+    exit_sign: Continue
+  08-firewall:
+    name: "Protects Against Malicious Requests with an Application Firewall"
+    exit_sign: Continue
+  09-summary:
+    name: "Summary"
+    exit_sign: Finish

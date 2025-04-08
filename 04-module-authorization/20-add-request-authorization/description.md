@@ -1,0 +1,1 @@
+Salt and pepper aren't the only things that can be coarse-grained!

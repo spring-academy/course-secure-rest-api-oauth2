@@ -1,0 +1,19 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2",
+  "slug": "spring-academy-secure-rest-api-oauth2",
+  "title": "Securing a REST API with OAuth 2.0",
+  "status": "live",
+  "order": 500,
+  "level": "beginner",
+  "topics": ["java", "testing", "security"],
+  "entitlements": ["auth"],
+  "instructors": ["spring-josh-cummings", "spring-felipe-gutierrez"],
+  "settings": {
+    "thumbnail": "https://raw.githubusercontent.com/spring-academy/spring-academy-assets/main/courses/course-secure-rest-api-oauth2/course-thumbnail-large.svg",
+    "debug.version": "${GITHUB_REF_NAME}",
+    "debug.commit": "${GITHUB_SHA}",
+    "debug.updated": "${DEBUG_DATE}",
+    "debug.who": "${GITHUB_ACTOR}",
+    "debug.github-workflow": "${GITHUB_WORKFLOW}"
+  }
+}

@@ -1,0 +1,19 @@
+modules:
+  01-overview:
+    name: "Overview"
+    exit_sign: Continue
+  02-review:
+    name: "Review the New Support Code"
+    exit_sign: Continue
+  03-mint:
+    name: "Minting Tokens in Our Tests"
+    exit_sign: Continue
+  04-verify:
+    name: "Verify an Invalid Audience is Prohibited"
+    exit_sign: Continue
+  05-expiration:
+    name: "Validating the Expiration"
+    exit_sign: Continue
+  99-summary:
+    name: "Summary"
+    exit_sign: Finish

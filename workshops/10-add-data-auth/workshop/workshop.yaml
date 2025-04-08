@@ -1,0 +1,9 @@
+name: Add Method Authorization
+modules:
+  activate:
+    - 01-overview
+    - 02-simple
+    - 03-spel
+    - 04-dependency
+    - 05-alternative
+    - 99-summary

@@ -1,0 +1,10 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authentication",
+  "slug": "authentication",
+  "title": "Authentication",
+  "status": "live",
+  "duration": 60,
+  "settings": {
+    "manualCompletion": true
+  }
+}

@@ -1,0 +1,1 @@
+In the lab you'll simplify the fetching of cash cards from the repository using Spring Security data authorization.

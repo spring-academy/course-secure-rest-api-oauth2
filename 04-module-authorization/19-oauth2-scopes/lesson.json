@@ -1,0 +1,11 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authorization-oauth2-scopes",
+  "slug": "spring-academy-secure-rest-api-oauth2-authorization-oauth2-scopes",
+  "title": "OAuth 2.0 Scopes",
+  "status": "live",
+  "type": "article",
+  "duration": 600,
+  "settings": {
+    "manualCompletion": true
+  }
+}

@@ -1,0 +1,1 @@
+In this lesson, you learned about two authorization models in Spring Security: request-level and method-level. Each has its strengths: request-level is nice for coarse-grained authorization and method-level is nice for fine-grained authorization. Not only that, but you learned that each can let you accomplish things that the other cannot.

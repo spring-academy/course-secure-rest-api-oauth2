@@ -1,0 +1,11 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authentication-adding",
+  "slug": "adding-authentication",
+  "title": "Adding Authentication",
+  "status": "live",
+  "type": "article",
+  "duration": 300,
+  "settings": {
+    "manualCompletion": true
+  }
+}

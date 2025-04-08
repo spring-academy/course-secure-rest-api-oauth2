@@ -1,0 +1,31 @@
+modules:
+  01-overview:
+    name: "Overview"
+    exit_sign: Continue
+  02-invoking-errors:
+    name: "Invoking Authorization Errors"
+    exit_sign: Continue
+  03-what-we-want:
+    name: "What Do We Want?"
+    exit_sign: Continue
+  04-test:
+    name: "Testing for Multiple Token Errors"
+    exit_sign: Continue
+  05-entry-point:
+    name: "A Custom Authentication Entry Point"
+    exit_sign: Continue
+  06-security-filter-chain:
+    name: "Publishing a SecurityFilterChain"
+    exit_sign: Continue
+  07-missing-header:
+    name: "The Missing Header"
+    exit_sign: Continue
+  08-add-details:
+    name: "Add Problem Details"
+    exit_sign: Continue
+  09-verify:
+    name: "Verify the New Error Detail"
+    exit_sign: Continue
+  99-summary:
+    name: "Summary"
+    exit_sign: Finish

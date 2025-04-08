@@ -1,0 +1,12 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authentication-auth-spring-mvc-lab",
+  "slug": "accessing-authentication-in-spring-mvc-lab",
+  "title": "Lab: Accessing Authentication in Spring MVC",
+  "status": "live",
+  "type": "lab",
+  "duration": 1800,
+  "settings": {
+    "educates": "spr-oauth2-accessing-auth",
+    "manualCompletion": true
+  }
+}

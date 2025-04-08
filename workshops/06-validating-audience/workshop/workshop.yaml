@@ -1,0 +1,9 @@
+name: The Unsecured API
+modules:
+  activate:
+    - 01-overview
+    - 02-review
+    - 03-mint
+    - 04-verify
+    - 05-expiration
+    - 99-summary

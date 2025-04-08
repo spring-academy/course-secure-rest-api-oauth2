@@ -1,0 +1,13 @@
+name: The Unsecured API
+modules:
+  activate:
+    - 01-overview
+    - 02-review
+    - 03-update-tests
+    - 04-method-injection
+    - 05-jdbc
+    - 06-type-conversion
+    - 07-spel
+    - 08-meta-annotation
+    - 09-create-cash-card
+    - 99-summary

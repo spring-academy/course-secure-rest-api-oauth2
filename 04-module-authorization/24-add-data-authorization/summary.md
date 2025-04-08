@@ -1,0 +1,1 @@
+In this lesson, you learned about adding authorization at the data layer using Spring Security's integration with Spring Data.

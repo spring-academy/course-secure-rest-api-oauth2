@@ -1,0 +1,1 @@
+Learn the difference between request and method authorization, where they overlap, and when one outshines the other.

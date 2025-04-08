@@ -1,0 +1,1 @@
+In this lesson, you've learned that the Spring Security filter chain is at the heart of Spring Security. These filters work together to determine if a request is safe, authenticated, and authorized. You can customize the filter chain by declaring it yourself using the `HttpSecurity` builder class.

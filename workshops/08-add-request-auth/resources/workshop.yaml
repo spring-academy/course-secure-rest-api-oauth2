@@ -1,0 +1,51 @@
+apiVersion: training.educates.dev/v1beta1
+kind: Workshop
+metadata:
+  name: spr-oauth2-request-authorization
+spec:
+  title: "08. Add Request Authorization"
+  description: "Add Request Authorization"
+  workshop:
+    image: jdk17-environment:*
+    packages:
+      - name: spring-academy-lab
+        files:
+          - image:
+              url: ghcr.io/spring-academy/spring-academy-extension-packages/spring-academy-lab:sha-9196fcb
+    files:
+      - image: # Note: format is {repository-name}-files
+          url: $(image_repository)/course-secure-rest-api-oauth2-files:$(workshop_version)
+        includePaths:
+          - /workshops/08-add-request-auth/workshop/**
+        newRootPath: workshops/08-add-request-auth
+      - path: .local/share/code-server
+        image:
+          url: ghcr.io/spring-academy/vscode-java-tools-$(platform_arch)-files:0.25.14
+      - path: exercises
+        git:
+          url: https://github.com/spring-academy/course-secure-rest-api-oauth2-code
+          ref: main
+        newRootPath: .
+  request:
+    parameters:
+    - name: USER_DOMAIN
+      value: "unknown.domain"
+    - name: USER_EMAIL
+      value: "somebody@unknown.domain"
+  session:
+    env:
+      - name: LESSON_LABEL
+        value: m3-s4-request-auth-start
+    namespaces:
+      budget: medium
+    resources:
+      memory: 2Gi
+    applications:
+      terminal:
+        enabled: true
+        layout: split
+      editor:
+        enabled: true
+    dashboards:
+      - name: Editor
+      - name: Terminal

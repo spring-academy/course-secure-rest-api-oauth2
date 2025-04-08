@@ -1,0 +1,1 @@
+In this lab, you're going to learn hands-on how Spring Security processes authentication failures. By the end, you'll have a custom authentication entry point that gives more helpful information to the OAuth 2.0 client about what went wrong.

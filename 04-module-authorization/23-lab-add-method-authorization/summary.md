@@ -1,0 +1,1 @@
+Here you'll enable method security in our Family Cash Card API and make sure that only the _owner_ of a cash card can fetch it.

@@ -1,0 +1,13 @@
+name: The Unsecured API
+modules:
+  activate:
+    - 01-overview
+    - 02-invoking-errors
+    - 03-what-we-want
+    - 04-test
+    - 05-entry-point
+    - 06-security-filter-chain
+    - 07-missing-header
+    - 08-add-details
+    - 09-verify
+    - 99-summary

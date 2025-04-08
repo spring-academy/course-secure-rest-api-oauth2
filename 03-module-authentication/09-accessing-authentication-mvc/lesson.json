@@ -1,0 +1,11 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authentication-auth-spring-mvc",
+  "slug": "accessing-authentication-in-spring-mvc",
+  "title": "Accessing Authentication in Spring MVC",
+  "status": "live",
+  "type": "article",
+  "duration": 600,
+  "settings": {
+    "manualCompletion": true
+  }
+}

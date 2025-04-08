@@ -1,0 +1,31 @@
+modules:
+  01-overview:
+    name: "Overview"
+    exit_sign: Continue
+  02-review:
+    name: "Review the current authentication"
+    exit_sign: Continue
+  03-update-tests:
+    name: "Update the tests"
+    exit_sign: Continue
+  04-method-injection:
+    name: "Method Injection"
+    exit_sign: Continue
+  05-jdbc:
+    name: "Using Spring Data JDBC"
+    exit_sign: Continue
+  06-type-conversion:
+    name: "Principal Type Conversion"
+    exit_sign: Continue
+  07-spel:
+    name: "Using a SpEL expression"
+    exit_sign: Continue
+  08-meta-annotation:
+    name: "Meta-annotations"
+    exit_sign: Continue
+  09-create-cash-card:
+    name: "Create a Cash Card"
+    exit_sign: Continue
+  99-summary:
+    name: "Summary"
+    exit_sign: Finish

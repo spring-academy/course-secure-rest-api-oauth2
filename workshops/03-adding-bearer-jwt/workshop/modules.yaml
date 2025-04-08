@@ -1,0 +1,19 @@
+modules:
+  01-overview:
+    name: "Overview"
+    exit_sign: Continue
+  02-config:
+    name: "Spring Boot Configuration"
+    exit_sign: Continue
+  03-verify:
+    name: "Verify the resource server"
+    exit_sign: Continue
+  04-authenticate:
+    name: "Time to Authenticate"
+    exit_sign: Continue
+  05-auth-instance:
+    name: "The Authentication Instance"
+    exit_sign: Continue
+  09-summary:
+    name: "Summary"
+    exit_sign: Finish

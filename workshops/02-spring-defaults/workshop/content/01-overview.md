@@ -1,0 +1,1 @@
+In this lab, you're going to add Spring Security to a Spring Boot application and then explore some of the default behaviors. By the end, you'll understand a lot of what Spring Security does automatically with minimal configuration on your part.

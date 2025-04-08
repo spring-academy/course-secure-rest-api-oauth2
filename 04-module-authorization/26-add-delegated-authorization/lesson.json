@@ -1,0 +1,11 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authorization-add-delegated-authorization",
+  "slug": "spring-academy-secure-rest-api-oauth2-authorization-add-delegated-authorization",
+  "title": "Adding Delegated Authorization",
+  "status": "live",
+  "type": "article",
+  "duration": 600,
+  "settings": {
+    "manualCompletion": true
+  }
+}

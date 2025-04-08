@@ -1,0 +1,12 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authentication-bearer-jwt",
+  "slug": "adding-oauth-2-bearer-jwt-authentication",
+  "title": "Lab: Adding OAuth 2.0 Bearer JWT Authentication",
+  "status": "live",
+  "type": "lab",
+  "duration": 300,
+  "settings": {
+    "educates": "spr-oauth2-bearer-jwt",
+    "manualCompletion": true
+  }
+}

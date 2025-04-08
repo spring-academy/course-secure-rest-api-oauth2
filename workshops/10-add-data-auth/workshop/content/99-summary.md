@@ -1,0 +1,1 @@
+In this lab, you learned how to integrate Spring Security and Spring Data to enforce authorization rules in database queries, reduce boilerplate code, and enhance data security. You also learned an alternative approach for achieving the same goal through explicit query methods.

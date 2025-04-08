@@ -1,0 +1,19 @@
+modules:
+  01-overview:
+    name: "Overview"
+    exit_sign: Continue
+  02-simple:
+    name: "The Simplest @Query"
+    exit_sign: Continue
+  03-spel:
+    name: "A Better @Query"
+    exit_sign: Continue
+  04-dependency:
+    name: "The Spring Security Data Dependency"
+    exit_sign: Continue
+  05-alternative:
+    name: "An Alternative Approach"
+    exit_sign: Continue
+  99-summary:
+    name: "Summary"
+    exit_sign: Finish

@@ -1,0 +1,12 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-authentication-validate-audience-lab",
+  "slug": "spring-academy-secure-rest-api-oauth2-authentication-validate-audience-lab",
+  "title": "Lab - Validate Claims",
+  "status": "live",
+  "type": "lab",
+  "duration": 1500,
+  "settings": {
+    "educates": "spr-oauth2-validating-audience",
+    "manualCompletion": true
+  }
+}

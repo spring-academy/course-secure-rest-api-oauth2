@@ -1,0 +1,12 @@
+name: The Unsecured API
+modules:
+  activate:
+    - 01-overview
+    - 02-add-security
+    - 03-requires-authentication
+    - 04-requires-csrf
+    - 05-requires-authentication-http
+    - 06-use-http-basic
+    - 07-requires-csrf-http
+    - 08-firewall
+    - 09-summary

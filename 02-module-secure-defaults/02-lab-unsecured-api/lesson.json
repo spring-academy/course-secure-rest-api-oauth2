@@ -1,0 +1,12 @@
+{
+  "id": "spring-academy-secure-rest-api-oauth2-secure-defaults-unsecured",
+  "slug": "unsecured-api",
+  "title": "Lab: The Unsecured API",
+  "status": "live",
+  "type": "lab",
+  "duration": 300,
+  "settings": {
+    "educates": "spr-oauth2-unsecured-api",
+    "manualCompletion": true
+  }
+}
