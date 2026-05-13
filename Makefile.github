@@ -1,0 +1,8 @@
+DIR_LAB               = lab
+NAME                  = course-secure-rest-api-oauth2
+IMAGE_SOURCE          = https://github.com/spring-academy/course-secure-rest-api-oauth2
+CONTAINER_REGISTRY    = ghcr.io/spring-academy/
+CONTAINER_REPOSITORY  = course-secure-rest-api-oauth2
+version               = latest
+
+env                   = local
