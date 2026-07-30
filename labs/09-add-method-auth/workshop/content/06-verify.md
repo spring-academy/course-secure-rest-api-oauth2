@@ -117,10 +117,12 @@ Let's verify that method security is behaving as we expect when we make real req
 
    ```shell
    ...
-   2023-10-24T21:13:11.643Z TRACE 3891 --- [nio-8080-exec-3] o.s.s.w.a.ExceptionTranslationFilter     : Sending JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@154bd83a, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_cashcard:read, SCOPE_cashcard:write]] to access denied handler since access is denied
+   2026-07-30T12:32:47.117Z TRACE 3891 --- [nio-8080-exec-3] o.s.s.w.a.ExceptionTranslationFilter     : Sending JwtAuthenticationToken [Principal=org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter$JwtAuthenticatedPrincipal@ad32e85a, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_cashcard:read, FactorGrantedAuthority [authority=FACTOR_BEARER, issuedAt=2026-07-30T11:32:47.117972Z], SCOPE_cashcard:write]] to access denied handler since access is denied
 
-   org.springframework.security.access.AccessDeniedException: Access Denied
-            at org.springframework.security.authorization.method.AuthorizationManagerAfterMethodInterceptor.attemptAuthorization(AuthorizationManagerAfterMethodInterceptor.java:184) ~[spring-security-core-6.1.0.jar:6.1.0]
+   org.springframework.security.authorization.AuthorizationDeniedException: Access Denied
+            at org.springframework.security.authorization.method.ThrowingMethodAuthorizationDeniedHandler.handleDeniedInvocationResult(ThrowingMethodAuthorizationDeniedHandler.java:47) ~[spring-security-core-7.1.0.jar:7.1.0]
+            at org.springframework.security.authorization.method.PostAuthorizeAuthorizationManager.handleDeniedInvocationResult(PostAuthorizeAuthorizationManager.java:115) ~[spring-security-core-7.1.0.jar:7.1.0]
+            at org.springframework.security.authorization.method.AuthorizationManagerAfterMethodInterceptor.handlePostInvocationDenied(AuthorizationManagerAfterMethodInterceptor.java:201) ~[spring-security-core-7.1.0.jar:7.1.0]
    ...
    ```
 

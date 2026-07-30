@@ -15,7 +15,7 @@ To change the tests to provide authentication will take two steps.
      ...
      implementation 'org.springframework.boot:spring-boot-starter-security'
      ...
-     testImplementation 'org.springframework.security:spring-security-test'
+     testImplementation 'org.springframework.boot:spring-boot-starter-security-test'
      ...
    }
    ```
@@ -40,7 +40,7 @@ To change the tests to provide authentication will take two steps.
    import org.springframework.security.test.context.support.WithMockUser;
    ...
    @SpringBootTest
-   @AutoConfiguredMockMvc
+   @AutoConfigureMockMvc
    @WithMockUser
    public class CashCardApplicationTests {
     ...

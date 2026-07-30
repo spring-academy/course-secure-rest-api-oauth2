@@ -47,10 +47,12 @@ In the next few steps, you'll be taking a look at the Spring Security logs to ve
    Notice the value of the `WWW-Authenticate` header. It should look like this:
 
    ```bash
-   WWW-Authenticate: Bearer
+   WWW-Authenticate: Bearer resource_metadata="http://localhost:8080/.well-known/oauth-protected-resource"
    ```
 
-   Remember that when you had the REST API configured for HTTP Basic, this would have responded with `WWW-Authenticate: Basic` as a header. This new value indicates to clients that your REST API is expecting a bearer token instead.
+   Remember that when you had the REST API configured for HTTP Basic, this would have responded with `WWW-Authenticate: Basic` as a header. This new `Bearer` scheme indicates to clients that your REST API is expecting a bearer token instead.
+
+   **_Note:_** Spring Security also advertises a `resource_metadata` parameter, which points clients at a document describing how to obtain a token for this resource. You don't need it for this course, but it's part of the bearer-token challenge from now on.
 
    **_Note:_** There isn't a `WWW-Authenticate` scheme to indicate that your REST API specifically understands JWTs. We'll handle JWTs in the code.
 

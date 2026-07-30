@@ -87,10 +87,10 @@ Now that we've done all this work to add scopes to our API, let's have some fun 
 
    ```shell
    ...
-   2023-10-20T18:49:08.866Z TRACE 4874 --- [nio-8080-exec-3] o.s.s.w.a.ExceptionTranslationFilter     : Sending JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@bd3c1568, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[SCOPE_cashcard:read]] to access denied handler since access is denied
+   2026-07-30T12:31:10.691Z TRACE 4874 --- [nio-8080-exec-3] o.s.s.w.a.ExceptionTranslationFilter     : Sending JwtAuthenticationToken [Principal=org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter$JwtAuthenticatedPrincipal@9b272312, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[FactorGrantedAuthority [authority=FACTOR_BEARER, issuedAt=2026-07-30T11:31:10.691237Z], SCOPE_cashcard:read]] to access denied handler since access is denied
 
-   org.springframework.security.access.AccessDeniedException: Access Denied
-        at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:98) ~[spring-security-web-6.1.0.jar:6.1.0]
+   org.springframework.security.authorization.AuthorizationDeniedException: Access Denied
+        at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:99) ~[spring-security-web-7.1.0.jar:7.1.0]
    ...
    ```
 
