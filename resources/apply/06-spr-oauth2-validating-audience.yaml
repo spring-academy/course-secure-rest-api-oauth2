@@ -27,6 +27,8 @@ spec:
       value: "somebody@unknown.domain"
   session:
     env:
+      - name: WEBSERVER
+        value: "$(ingress_protocol)://$(workshop_namespace)-files.$(ingress_domain)"
       - name: LESSON_LABEL
         value: m2-s11-validating-claims-start
     namespaces:
