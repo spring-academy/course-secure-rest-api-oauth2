@@ -55,7 +55,7 @@ spec:
           defaultMode: 0755
     volumeMounts:
       - name: workshop-setup-scripts
-        mountPath: /opt/packages/workshop-setup-scripts/setup.d
+        mountPath: /opt/packages/00-workshop-setup-scripts/setup.d
   environment:
       objects:
       - apiVersion: v1
@@ -107,7 +107,6 @@ spec:
           name: $(workshop_namespace)-files
           namespace: $(workshop_namespace)
         spec:
-          serviceAccountName: $(service_account)
           replicas: 1
           selector:
             matchLabels:
@@ -119,6 +118,7 @@ spec:
               labels:
                 deployment: files
             spec:
+              serviceAccountName: $(service_account)
               containers:
               - name: files
                 image: ${CONTAINER_REGISTRY}${CONTAINER_REPOSITORY}:${VERSION}
