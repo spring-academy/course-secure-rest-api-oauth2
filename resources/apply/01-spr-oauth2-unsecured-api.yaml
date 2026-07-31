@@ -3,7 +3,7 @@ kind: Workshop
 metadata:
   name: spr-oauth2-unsecured-api
 spec:
-  title: The Unsecured API
+  title: "01. The Unsecured API"
   description: "The Unsecured API"
   workshop:
     image: jdk17-environment:*

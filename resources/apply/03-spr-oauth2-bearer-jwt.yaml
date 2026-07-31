@@ -3,7 +3,7 @@ kind: Workshop
 metadata:
   name: spr-oauth2-bearer-jwt
 spec:
-  title: "Adding OAuth 2.0 Bearer JWT Authentication"
+  title: "03. Adding OAuth 2.0 Bearer JWT Authentication"
   description: "Adding OAuth 2.0 Bearer JWT Authentication"
   workshop:
     image: jdk17-environment:*

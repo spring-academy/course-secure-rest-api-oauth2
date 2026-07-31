@@ -3,7 +3,7 @@ kind: Workshop
 metadata:
   name: spr-oauth2-spring-defaults
 spec:
-  title: "Spring Security's Defaults"
+  title: "02. Spring Security's Defaults"
   description: "Spring Security's Defaults"
   workshop:
     image: jdk17-environment:*

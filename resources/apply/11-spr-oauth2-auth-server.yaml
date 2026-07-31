@@ -3,8 +3,8 @@ kind: Workshop
 metadata:
   name: spr-oauth2-auth-server
 spec:
-  title: "11. Lab - Connecting to an Authorization Server"
-  description: "11. Lab - Connecting to an Authorization Server"
+  title: "11. Connecting to an Authorization Server"
+  description: "Connecting to an Authorization Server"
   workshop:
     image: jdk17-environment:*
     packages:
