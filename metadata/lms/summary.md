@@ -12,7 +12,7 @@ In this course you'll learn:
 "The security risks of an unsecured Spring Boot API ||
 How to leverage Spring Security's default settings ||
 How to add OAuth 2.0 to your app ||
-How to integration with an Authorization Server ||
+How to integrate with an Authorization Server ||
 And, of course, how to write automated tests for everything!"
 }
 @@@
@@ -29,7 +29,7 @@ This course is designed for developers who are new to Spring Security. We recomm
 {
 "list":
 "Experience with Java ||
-Experience with REST APIs build with Spring Boot"
+Experience with REST APIs built with Spring Boot"
 }
 @@@
 
