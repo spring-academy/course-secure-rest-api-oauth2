@@ -1,4 +1,4 @@
-Recall from the lesson that Spring Security requires authentication for all endpoints by default. This is why each test is now failing, reporting that a `401` is returned instead of the expected status code.
+You will recall from the previous lesson that Spring Security requires authentication for all endpoints by default. This is why each test is now failing, reporting that a `401` is returned instead of the expected status code.
 
 To change the tests to provide authentication will take two steps.
 
@@ -42,7 +42,7 @@ To change the tests to provide authentication will take two steps.
    @SpringBootTest
    @AutoConfigureMockMvc
    @WithMockUser
-   public class CashCardApplicationTests {
+   class CashCardApplicationTests {
     ...
    ```
 

@@ -2,9 +2,13 @@ All of our tests are passing except one: `shouldCreateANewCashCard`, which is a 
 
 You can add this in the `MockMvc` declaration using one of Spring Security's `MockMvc` `RequestPostProcessor`s, namely `csrf()`.
 
-To fix the test with proper CSRF support, import the static helper method and add the CSRF token to the request:
+To fix the test with proper CSRF support, import the static helper method and add the CSRF token to the request.
 
-First, import the static helper method
+First, import the static helper method:
+
+```editor:open-file
+file: ~/exercises/src/test/java/example/cashcard/CashCardApplicationTests.java
+```
 
 ```java
 import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;

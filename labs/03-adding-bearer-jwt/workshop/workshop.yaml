@@ -1,4 +1,4 @@
-name: The Unsecured API
+name: Adding OAuth 2.0 Bearer JWT Authentication
 modules:
   activate:
     - 01-overview

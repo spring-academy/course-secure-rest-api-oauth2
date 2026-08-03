@@ -42,7 +42,7 @@ Just like you did in the previous lab, try requesting the `/cashcards` endpoint 
    ...
    ```
 
-   In this case, you should also see a `401`. Even though you might have expected a `404`, it's better defensively to not share this information with the public.
+   In this case, you should also see a `401`. Even though you might have expected a `404`. It's better defensively to not share this information with the public.
 
 1. Inspect the headers
 

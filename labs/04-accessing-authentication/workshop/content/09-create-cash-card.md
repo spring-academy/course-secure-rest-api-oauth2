@@ -74,7 +74,7 @@ Let's do a quick check to see if we're allowing this now.
    [~/exercises] $ ./gradlew test
    ...
    CashCardApplicationTests > shouldCreateANewCashCard() FAILED
-   jakarta.servlet.ServletException: Request processing failed: org.springframework.data.relational.core.conversion.DbActionExecutionException: Failed to execute InsertRoot{entity=CashCard[id=null, amount=250.0, owner=null], idValueSource=GENERATED}
+   jakarta.servlet.ServletException: Request processing failed: org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [INSERT INTO "CASH_CARD" ("AMOUNT", "OWNER") VALUES (?, ?)]; NULL not allowed for column "OWNER"; SQL statement:
    ```
 
    Interesting! It seems that we tried to create a new record in the `CASH_CARD` table in the database, but `owner=null` is not allowed.
