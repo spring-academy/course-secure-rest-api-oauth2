@@ -87,6 +87,12 @@ Let's do a quick check to see if we're allowing this now.
 
    **_Tip:_** While you're at it, use the handy `CashCardRequest` record we've provided for you. Take a moment to check it out, as we'll go over it in more detail soon.
 
+   ```editor:select-matching-text
+   file: ~/exercises/src/main/java/example/cashcard/CashCardController.java
+   text: "PostMapping"
+   description:
+   ```
+
    ```java
     @PostMapping
     public ResponseEntity<CashCard> createCashCard(@RequestBody CashCardRequest cashCardRequest, UriComponentsBuilder ucb, @CurrentOwner String owner) {

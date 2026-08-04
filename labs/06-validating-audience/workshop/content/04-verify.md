@@ -70,7 +70,7 @@ Let's add a test that validates that the `cashcard-client` audience is required 
              audiences: cashcard-client # <== Add this!
    ```
 
-   By adding the `audiences` property, you're telling Spring Security to ensure that each JWT contains an `aud` claim with a value of `cashcard-client`.
+   By adding the `audiences` property, you're telling Spring Security to ensure that each JWT contains an `audience` claim with a value of `cashcard-client`.
 
 1. Verify the audience is enforced.
 

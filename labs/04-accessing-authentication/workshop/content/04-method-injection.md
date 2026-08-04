@@ -62,9 +62,15 @@ Remember when you read about `Authentication` as a parameter for a method in the
    BUILD SUCCESSFUL in 5s
    ```
 
-1. Query the API and verify.
+2. Query the API and verify. In one of the Terminal panes, run the application:
 
-   First, **_Restart the application._** by hitting `CTRL-C` on the running Terminal pane, then rerunning `./gradlew bootRun`.
+   ```dashboard:open-dashboard
+   name: Terminal
+   ```
+
+   ```bash
+   [~/exercises] $ ./gradlew bootRun
+   ```
 
    Next, fetch all cash cards, supplying `sarah1`'s JWT:
 

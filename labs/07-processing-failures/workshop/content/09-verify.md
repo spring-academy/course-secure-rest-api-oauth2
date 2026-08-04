@@ -31,9 +31,11 @@ Let's see how this all looks when making requests against our API.
    ```shell
    [~/exercises] $ http :8080/cashcards "Authorization: Bearer $INVALID_TOKEN"
    HTTP/1.1 401
+   ...
    WWW-Authenticate: Bearer error="invalid_token", error_description="An error occurred while attempting to decode the Jwt: Jwt expired at 2023-01-01T07:00:00Z", error_uri="https://tools.ietf.org/html/rfc6750#section-3.1", resource_metadata="http://localhost:8080/.well-known/oauth-protected-resource"
+   ...
 
-   {"type":"https://tools.ietf.org/html/rfc6750#section-3.1","title":"An error occurred while attempting to decode the Jwt: Jwt expired at 2023-01-01T07:00:00Z","status":401,"errors":[{"errorCode":"invalid_token","description":"Jwt expired at 2023-01-01T07:00:00Z","uri":"https://tools.ietf.org/html/rfc6750#section-3.1"},{"errorCode":"invalid_token","description":"The aud claim is not valid","uri":"https://tools.ietf.org/html/rfc6750#section-3.1"}]}
+   {"status":401,"title":"Invalid Token","type":"https://tools.ietf.org/html/rfc6750#section-3.1","errors":[{"description":"Jwt expired at 2023-01-01T07:00:00Z","errorCode":"invalid_token","uri":"https://tools.ietf.org/html/rfc6750#section-3.1"},{"description":"The aud claim is not valid","errorCode":"invalid_token","uri":"https://tools.ietf.org/html/rfc6750#section-3.1"}]}
    ```
 
    Nice! We can see all of the errors returned
@@ -43,18 +45,18 @@ Let's see how this all looks when making requests against our API.
    ```shell
    [~/exercises] $ http :8080/cashcards "Authorization: Bearer $INVALID_TOKEN" | jq
    {
-     "type": "https://tools.ietf.org/html/rfc6750#section-3.1",
-     "title": "Invalid Token",
      "status": 401,
+     "title": "Invalid Token",
+     "type": "https://tools.ietf.org/html/rfc6750#section-3.1",
      "errors": [
        {
-         "errorCode": "invalid_token",
          "description": "Jwt expired at 2023-01-01T07:00:00Z",
+         "errorCode": "invalid_token",
          "uri": "https://tools.ietf.org/html/rfc6750#section-3.1"
        },
        {
-         "errorCode": "invalid_token",
          "description": "The aud claim is not valid",
+         "errorCode": "invalid_token",
          "uri": "https://tools.ietf.org/html/rfc6750#section-3.1"
        }
      ]

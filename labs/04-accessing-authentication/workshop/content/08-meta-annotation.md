@@ -42,6 +42,12 @@ description:
 
    Next, where the `@CurrentSecurityContext` expression in the `CashCardController#findAll` method was, you can add the `@CurrentOwner` annotation, like so:
 
+   ```editor:select-matching-text
+   file: ~/exercises/src/main/java/example/cashcard/CashCardController.java
+   text: "findAll"
+   description:
+   ```
+
    ```java
    @GetMapping
    public ResponseEntity<Iterable<CashCard>> findAll(@CurrentOwner String owner) {
