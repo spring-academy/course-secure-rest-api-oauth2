@@ -31,7 +31,7 @@ Let's start our API and make requests using our invalid token to learn what happ
    ```shell
    HTTP/1.1 401
    ...
-   WWW-Authenticate: Bearer error="invalid_token", error_description="An error occurred while attempting to decode the Jwt: Jwt expired at 2023-01-01T07:00:00Z", error_uri="https://tools.ietf.org/html/rfc6750#section-3.1"
+   WWW-Authenticate: Bearer error="invalid_token", error_description="An error occurred while attempting to decode the Jwt: Jwt expired at 2023-01-01T07:00:00Z", error_uri="https://tools.ietf.org/html/rfc6750#section-3.1", resource_metadata="http://localhost:8080/.well-known/oauth-protected-resource"
    ```
 
    Boom! That broke.

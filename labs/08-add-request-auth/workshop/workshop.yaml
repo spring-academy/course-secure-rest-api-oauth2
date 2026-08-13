@@ -1,4 +1,4 @@
-name: Add Request Authorization
+name: Adding Request Authorization
 modules:
   activate:
     - 01-overview

@@ -55,6 +55,8 @@ Let's use an `ObjectMapper` to help with that.
 
    The `ObjectMapper` will give us the ability to turn a Java object into JSON, which we can add to our error response.
 
+   **_Note:_** Spring Boot 4 ships Jackson 3, so `ObjectMapper` comes from `tools.jackson.databind`, not the Jackson 2 `com.fasterxml.jackson.databind` package you may have seen previously. The import is already in place for you.
+
 1. Add the errors.
 
    When the validation fails, Spring Security throws a `JwtValidationException`, which contains all the `OAuth2Error`'s for the invalid JWT.

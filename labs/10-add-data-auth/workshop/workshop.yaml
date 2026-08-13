@@ -1,4 +1,4 @@
-name: Add Method Authorization
+name: Adding Data Authorization
 modules:
   activate:
     - 01-overview

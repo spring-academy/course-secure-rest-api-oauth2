@@ -11,7 +11,7 @@ name: Terminal
 ```
 
 ```shell
-[~/exercises] $ jwt decode ${INVALID_TOKEN}
+[~/exercises] $ jwt decode $INVALID_TOKEN
 ...
 Token claims
 ------------

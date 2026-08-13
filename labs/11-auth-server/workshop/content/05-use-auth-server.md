@@ -35,11 +35,11 @@ We've already started our API. Now let's start Authorization Server, which we've
     \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
      '  |____| .__|_| |_|_| |_\__, | / / / /
     =========|_|==============|___/=/_/_/_/
-    :: Spring Boot ::                (v3.1.3)
+    :: Spring Boot ::                (v4.1.0)
 
-   2023-11-07T15:51:06.443Z  INFO 1 --- [           main] com.example.sso.SsoApplication           : Starting SsoApplication v0.0.1-SNAPSHOT using Java 17.0.9 with PID 1 (/application/BOOT-INF/classes started by root in /application)
+   2026-08-04T18:39:48.357Z  INFO 1 --- [           main] com.example.sso.SsoApplication           : Starting SsoApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 1 (/application/application.jar started by root in /application)
    ...
-   2023-11-07T15:51:07.713Z  INFO 1 --- [           main] com.example.sso.SsoApplication           : Started SsoApplication in 1.571 seconds (process running for 1.798)
+   2026-08-04T18:39:57.261Z  INFO 1 --- [           main] com.example.sso.SsoApplication           : Started SsoApplication in 11.329 seconds (process running for 12.528)
    ```
 
    Look at that, it's a Spring Boot application, too!

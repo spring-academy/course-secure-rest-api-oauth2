@@ -1,6 +1,6 @@
 This course is designed to help you build your applications with the secure foundation of Spring Security, specifically in the context of Spring Boot.
 
-Our Spring experts guide you through building and running a fully functional REST API that manages cash cards for an imaginary company Family Cash Cards. You can think of the cash card being very similar to a gift card that many of us send and receive.
+Our Spring experts guide you through building and running a fully functional REST API that manages cash cards for an imaginary company called Family Cash Cards. You can think of the cash card being very similar to a gift card that many of us send and receive.
 
 ## What You Will Learn
 

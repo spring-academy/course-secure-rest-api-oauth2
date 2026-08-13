@@ -7,13 +7,13 @@ Set SecurityContextHolder to JwtAuthenticationToken [...]
 Inside the braces, observe the details of the `Authentication` instance that was created. They should look something like this:
 
 ```bash
-JwtAuthenticationToken [Principal=org.springframework.security.oauth2.jwt.Jwt@da5265e9, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[SCOPE_cashcard:read, SCOPE_cashcard:write]]
+JwtAuthenticationToken [Principal=org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter$JwtAuthenticatedPrincipal@da5265e9, Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=127.0.0.1, SessionId=null], Granted Authorities=[SCOPE_cashcard:read, FactorGrantedAuthority [authority=FACTOR_BEARER, issuedAt=2026-07-30T11:32:47.117972Z], SCOPE_cashcard:write]]
 ```
 
 As you can see, the authentication instance that was created contains:
 
 - A _principal_, which is the set of claims
 - A _credential_, which is the original, signed JWT, and
-- A set of _authorities_, which are each scope prefixed by `SCOPE_`
+- A set of _authorities_, which are each scope prefixed by `SCOPE_`, alongside a `FACTOR_BEARER` authority that Spring Security adds to record _how_ the request was authenticated
 
 You can see that the authentication instance is for our Cash Card application: `SCOPE_cashcard:read` and `SCOPE_cashcard:write`.

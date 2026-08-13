@@ -36,18 +36,12 @@ spec:
   - name: spr-oauth2-unsecured-api
   - name: spr-oauth2-spring-defaults
   - name: spr-oauth2-bearer-jwt
-    refresh: 9h
   - name: spr-oauth2-accessing-auth
-    refresh: 9h
   - name: spr-oauth2-auth-anywhere
-    refresh: 9h
   - name: spr-oauth2-validating-audience
-    refresh: 9h
   - name: spr-oauth2-processing-failures
   - name: spr-oauth2-request-authorization
-    refresh: 9h
   - name: spr-oauth2-method-authorization
-    refresh: 9h
   - name: spr-oauth2-data-authorization
   - name: spr-oauth2-auth-server
-    refresh: 9h
+  

@@ -1,4 +1,4 @@
-name: The Unsecured API
+name: Accessing Authentication in Spring MVC
 modules:
   activate:
     - 01-overview

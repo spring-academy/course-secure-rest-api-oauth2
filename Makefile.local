@@ -3,6 +3,8 @@ NAME                  = course-secure-rest-api-oauth2
 IMAGE_SOURCE          = https://github.com/spring-academy/course-secure-rest-api-oauth2
 CONTAINER_REGISTRY    = 
 CONTAINER_REPOSITORY  = course-secure-rest-api-oauth2
+CODE_REPO             = https://github.com/spring-academy/course-secure-rest-api-oauth2-code.git
+CODE_REPO_BRANCH      = main
 version               = latest
 
 env                   = local

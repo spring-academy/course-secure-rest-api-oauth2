@@ -1,7 +1,7 @@
 {
   "id": "spring-academy-secure-rest-api-oauth2-authentication-access-auth-anywhere-lab",
   "slug": "spring-academy-secure-rest-api-oauth2-authentication-access-auth-anywhere-lab",
-  "title": "Accessing Authentication Anywhere",
+  "title": "Lab: Accessing Authentication Anywhere",
   "status": "live",
   "type": "lab",
   "duration": 1200,
