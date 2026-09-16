@@ -72,6 +72,10 @@ spec:
           00-setup.sh: |
             #!/bin/bash
             # This is run at session creation
+
+            # if the exercises directory exists, then lab has already been initialized
+            [ -d "$HOME/exercises" ] && exit 0
+
             curl -L ${WEBSERVER}/exercises.tar.gz | tar -xvz -C ${HOME}
       - apiVersion: v1
         kind: Service
